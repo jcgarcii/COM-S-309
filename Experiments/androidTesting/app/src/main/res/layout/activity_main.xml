@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE androidx.constraintlayout.widget.ConstraintLayout [<!ELEMENT androidx.constraintlayout.widget.ConstraintLayout (TextView)*><!ATTLIST androidx.constraintlayout.widget.ConstraintLayoutxmlns:android CDATA #REQUIREDxmlns:app CDATA #REQUIREDxmlns:tools CDATA #REQUIREDandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDtools:context CDATA #REQUIRED><!ELEMENT TextView (#PCDATA)><!ATTLIST TextViewandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDandroid:text CDATA #REQUIREDapp:layout_constraintBottom_toBottomOf CDATA #REQUIREDapp:layout_constraintLeft_toLeftOf CDATA #REQUIREDapp:layout_constraintRight_toRightOf CDATA #REQUIREDapp:layout_constraintTop_toTopOf CDATA #REQUIRED>]>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Pushing Simulator 2021"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <Button
+        android:id="@+id/buttonPusher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press The Button"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#B62D2D"
+        app:iconTint="#562E0E"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

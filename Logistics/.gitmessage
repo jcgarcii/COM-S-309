@@ -1,0 +1,33 @@
+# ============== Commit Message ================ #
+# Mark with Flag (frontend: backend: user: admin: ie)
+
+
+
+# ========================= Commit Summary =========================== #
+
+
+
+# Tagged Issues
+# Resolves:
+# See also:
+
+#
+# For more infromation of formatting a commit
+# https://chris.beams.io/posts/git-commit/
+#
+# Example Commit
+#
+# ============== Commit Message ================ # <----- 50 character ruler
+# frontend: user: Add basic game lobby screen
+#
+#
+# ========================= Commit Summary =========================== # <-- 72 character ruler
+# Added a link from the login screen to the user game lobby screen. When
+# the user selects the "Play Game" button from the menu they are
+# naviagted to a this page that shows the current plays in the lobby
+# along with those players game stats.
+#
+# Tagged Issues (#123)
+# Resolves: #12
+# See also: #456, #789
+#
